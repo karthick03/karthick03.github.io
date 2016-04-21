@@ -28,7 +28,23 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1022065247880404',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -132,6 +148,12 @@
                 </ul>
             </div>
         </div>
+        <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
     </section>
 
     <!-- Map Section -->
@@ -140,7 +162,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; My Website 2015</p>
+            <p>Copyright &copy; My Website 2016</p>
             <p>Thank God for everything.!!!</p>
             <p>
             <div align=center><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-aa7A7z69-26.gif' border='0' alt='conter12'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=aa7A7z69'></script></div>    
